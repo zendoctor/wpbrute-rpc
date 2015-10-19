@@ -1,5 +1,5 @@
 # Wordpress Bruteforcer
-This is a rough POC that demonstrates the recent amplified bruteforce attack on wordpress based website via `xmlrcp` API. 
+This is a rough POC that demonstrates the recent amplified bruteforce attack on wordpress based website via `xmlrpc` API. 
 
 # Issue
 This particular vulnerability allows an attacker to bypass webserver rate limits. Instead of the attacker sending one query with a one password, he or she can now send one query with 500 passwords via `xmlrpc` API. 
